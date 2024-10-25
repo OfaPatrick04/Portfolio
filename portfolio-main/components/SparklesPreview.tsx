@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { SparklesCore } from "./ui/Sparkles";
-import { LampDemo } from "./ui/lamp";
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 export function SparklesPreview() {
   return (
@@ -17,9 +17,10 @@ export function SparklesPreview() {
           particleColor="#FFFFFF"
         />
       </div>
-      <div className="md:text-7xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
-        <LampDemo />
-      </div>
+      <TextGenerateEffect
+          words="Bringing Ideas To Life"
+          className="text-center text-[40px] md:text-5xl lg:text-6xl"
+        />
     </div>
   );
 }

@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I value collaboration with clients and strive to maintain open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I accommodate your schedule, regardless of time zone.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "I enjoy discovering emerging technologies and improving my skills.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently working on something huge 😊",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -75,14 +76,20 @@ export const projects = [
     title: "Eneye Group International",
     des: "Eneye Group LTD is a multifaceted enterprise committed to driving innovation, sustainable growth, and social impact through a diverse range of services and products. Our operations span across various sectors, including business development, marketing, real estate, agriculture, and more, ensuring a holistic approach to empowering communities and fostering economic development.",
     img: "/eneyegroup.png",
-    iconLists: ["/mongodb.svg", "/express.svg","/re.svg", "/node.svg", "/fm.svg"],
+    iconLists: [
+      "/mongodb.svg",
+      "/express.svg",
+      "/re.svg",
+      "/node.svg",
+      "/fm.svg",
+    ],
     linkName: "eneyegroup.com",
     link: "https://www.eneyegroup.com/",
   },
   {
     id: 2,
     title: "Ghana Union of Professional Photographers",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "The Ghana Union of Professional Photographers (GUPP) is a member union of the Public Service Workers Union (P.S.W.U.) of the Ghana Trade Union Congress (G-TUC). We are committed to uniting photographers across Ghana and beyond, advocating for their rights, and promoting the photographic industry.",
     img: "/guppgh.png",
     iconLists: ["/wordpress.svg", "/elementor.svg"],
     linkName: "guppgh.org",
@@ -91,16 +98,22 @@ export const projects = [
   {
     id: 3,
     title: "PAK Travels",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and cred system using the latest tech stack.",
+    des: "Welcome to PAK TRAVELS, a licensed and award-winning travel agency with years of credible service. Based in Sunyani, Bono Region, Ghana, we are dedicated to delivering exceptional travel experiences locally and internationally. Our passion for travel and commitment to client satisfaction make us your go-to partner for exploring new destinations and creating unforgettable memories.",
     img: "/pak travels.png",
-    iconLists: ["/mongodb.svg", "/express.svg","/re.svg", "/node.svg", "/fm.svg"],
+    iconLists: [
+      "/mongodb.svg",
+      "/express.svg",
+      "/re.svg",
+      "/node.svg",
+      "/fm.svg",
+    ],
     linkName: "paktravelssunayi.com",
     link: "https://paktravels.vercel.app/",
   },
   {
     id: 4,
     title: "TaeMart",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "The African Entrepreneurship Market (TAEMart) is an innovative platform dedicated to elevating African brands on the global stage. We combine the power of digital platforms, physical retail spaces, and a network of skilled sales professionals to help African entrepreneurs achieve their sales and financial goals. TAEMart allows entrepreneurs to focus on production and product development, while we handle the complexities of marketing and sales.",
     img: "/taemart site.png",
     iconLists: ["/wordpress.svg", "/elementor.svg"],
     linkName: "taemart.com",
@@ -209,16 +222,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: ""
+    link: "https://github.com/OfaPatrick04",
   },
   {
     id: 2,
-    img: "/twit.svg",
-    link: ""
-  },
-  {
-    id: 3,
     img: "/link.svg",
-    link: ""
+    link: "https://www.linkedin.com/in/ofa-patrick-27a6b12b9",
   },
+  // {
+  //   id: 3,
+  //   img: "/twit.svg",
+  //   link: ""
+  // },
 ];

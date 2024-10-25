@@ -15,9 +15,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="Together, we’ll define your website’s goals, target audience, and essential features. We'll dive into elements like site structure, navigation, and content needs to lay a solid foundation for success."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Design & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="With the plan in place, I’ll begin translating our ideas into tangible elements. This phase focuses on setting up the framework, integrating functionalities, and ensuring a smooth user experience. Throughout the process, I’ll provide regular updates to keep you in the loop."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -50,9 +46,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="Now, the real magic happens! I’ll take the approved design and transform it into fully functional code, building your website from the ground up. Once everything is meticulously crafted and tested, we’ll launch your site, ready to engage your audience!"
         >
           <CanvasRevealEffect
             animationSpeed={3}
