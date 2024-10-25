@@ -1,8 +1,8 @@
 export const navItems = [
+  { name: "Home", link: "/" },
+  { name: "Projects", link: "/projects" },
   { name: "About", link: "/about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Contact", link: "/contact" },
 ];
 
 export const gridItems = [
