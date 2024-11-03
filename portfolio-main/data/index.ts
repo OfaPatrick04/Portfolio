@@ -12,9 +12,9 @@ export const gridItems = [
       "I value collaboration with clients and strive to maintain open communication ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
+    imgClassName: "w-full h-full object-cover",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "b1.svg",
     spareImg: "",
   },
   {
@@ -55,7 +55,7 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/my_logo_full-gold.png",
     spareImg: "/grid.svg",
   },
   {
@@ -67,6 +67,57 @@ export const gridItems = [
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
     spareImg: "",
+  },
+];
+
+export const recentProjects = [
+  {
+    id: 1,
+    title: "Eneye Group International",
+    des: "Eneye Group LTD is a multifaceted enterprise committed to driving innovation, sustainable growth, and social impact through a diverse range of services and products. Our operations span across various sectors, including business development, marketing, real estate, agriculture, and more, ensuring a holistic approach to empowering communities and fostering economic development.",
+    img: "/eneyegroup.png",
+    iconLists: [
+      "/mongodb.svg",
+      "/express.svg",
+      "/re.svg",
+      "/node.svg",
+      "/fm.svg",
+    ],
+    linkName: "eneyegroup.com",
+    link: "https://www.eneyegroup.com/",
+  },
+  {
+    id: 2,
+    title: "Ghana Union of Professional Photographers",
+    des: "The Ghana Union of Professional Photographers (GUPP) is a member union of the Public Service Workers Union (P.S.W.U.) of the Ghana Trade Union Congress (G-TUC). We are committed to uniting photographers across Ghana and beyond, advocating for their rights, and promoting the photographic industry.",
+    img: "/guppgh.png",
+    iconLists: ["/wordpress.svg", "/elementor.svg"],
+    linkName: "guppgh.org",
+    link: "https://guppgh.org/",
+  },
+  {
+    id: 3,
+    title: "PAK Travels",
+    des: "Welcome to PAK TRAVELS, a licensed and award-winning travel agency with years of credible service. Based in Sunyani, Bono Region, Ghana, we are dedicated to delivering exceptional travel experiences locally and internationally. Our passion for travel and commitment to client satisfaction make us your go-to partner for exploring new destinations and creating unforgettable memories.",
+    img: "/pak travels.png",
+    iconLists: [
+      "/mongodb.svg",
+      "/express.svg",
+      "/re.svg",
+      "/node.svg",
+      "/fm.svg",
+    ],
+    linkName: "paktravelssunayi.com",
+    link: "https://paktravels.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "TaeMart",
+    des: "The African Entrepreneurship Market (TAEMart) is an innovative platform dedicated to elevating African brands on the global stage. We combine the power of digital platforms, physical retail spaces, and a network of skilled sales professionals to help African entrepreneurs achieve their sales and financial goals. TAEMart allows entrepreneurs to focus on production and product development, while we handle the complexities of marketing and sales.",
+    img: "/taemart site.png",
+    iconLists: ["/wordpress.svg", "/elementor.svg"],
+    linkName: "taemart.com",
+    link: "https://taemart.com/",
   },
 ];
 
@@ -118,6 +169,33 @@ export const projects = [
     iconLists: ["/wordpress.svg", "/elementor.svg"],
     linkName: "taemart.com",
     link: "https://taemart.com/",
+  },
+  {
+    id: 5,
+    title: "Quiz App",
+    des: "A very Simple Quiz app which was designed using HTML, CSS and Vanilla Javascript. Easily scalable with a simple but well thought out interface.",
+    img: "/quiz-app.png",
+    iconLists: ["/html.svg", "/css.svg", "/javascript.svg"],
+    linkName: "quizapp.com",
+    link: "https://quizapp-ofapatrick.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Sign Up/Login Form",
+    des: "A simple Signup/Login form with fully functional client side verification and error messages",
+    img: "/friendly-interface.png",
+    iconLists: ["/html.svg", "/css.svg", "/javascript.svg"],
+    linkName: "signuploginform.com",
+    link: "https://signup-login-form-ofapatrick.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Youtube",
+    des: "A simple replica of a youtube home page. It just has random videos and no real functionalities but it just looks cool. Its just HTML and CSS",
+    img: "/youtube.png",
+    iconLists: ["/html.svg", "/css.svg"],
+    linkName: "youtubereplica.com",
+    link: "https://youtube-replica-two.vercel.app/",
   },
 ];
 
@@ -197,7 +275,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Senior Web Developer - Eneye Group",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
@@ -211,7 +289,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Frontend Developer - AEA Ghana",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",

@@ -1,61 +1,79 @@
 import { cn } from "@/lib/utils";
 import {
-  IconAdjustmentsBolt,
-  IconCloud,
-  IconCurrencyDollar,
-  IconEaseInOut,
-  IconHeart,
-  IconHelp,
-  IconRouteAltLeft,
-  IconTerminal2,
+  IconChartBar,
+  IconChartLine,
+  IconCode,
+  IconGauge,
+  IconLayout,
+  IconLayoutDashboard,
+  IconPlugConnected,
+  IconServer,
+  IconShoppingCart,
+  IconStack,
+  IconTools,
 } from "@tabler/icons-react";
 
 export function FeaturesSectionDemo() {
   const features = [
     {
-      title: "Built for developers",
+      title: "Web Strategy and Planning",
+      description: "Helping clients determine website goals, ideal features, and user journey mapping",
+      icon: <IconChartBar />,
+    },
+    {
+      title: "UI/UX Design",
       description:
-        "Built for engineers, developers, dreamers, thinkers and doers.",
-      icon: <IconTerminal2 />,
+        "Creating intuitive and visually engaging user interfaces that enhance user experience",
+      icon: <IconLayout />,
     },
     {
-      title: "Ease of use",
+      title: "Front-End Development",
       description:
-        "It's as easy as using an Apple, and as expensive as buying one.",
-      icon: <IconEaseInOut />,
+        "Coding the client-facing part of the website and making designs functiona.",
+      icon: <IconCode />,
     },
     {
-      title: "Pricing like no other",
+      title: "Back-End Development",
       description:
-        "Our prices are best in the market. No cap, no lock, no credit card required.",
-      icon: <IconCurrencyDollar />,
+        "Developing server-side code to support complex functionalities.",
+      icon: <IconServer />,
     },
     {
-      title: "100% Uptime guarantee",
-      description: "We just cannot be taken down by anyone.",
-      icon: <IconCloud />,
+      title: "Full-Stack Development",
+      description: "Combining front-end and back-end services for a complete development solution.",
+      icon: <IconStack />,
     },
     {
-      title: "Multi-tenant Architecture",
-      description: "You can simply share passwords instead of buying new seats",
-      icon: <IconRouteAltLeft />,
+      title: "E-commerce Development",
+      description: "Building online stores, integrating payment systems, and ensuring secure transaction processes",
+      icon: <IconShoppingCart />,
     },
     {
-      title: "24/7 Customer Support",
+      title: "CMS Integration",
       description:
-        "We are available a 100% of the time. Atleast our AI Agents are.",
-      icon: <IconHelp />,
+        "Setting up CMS platforms like WordPress custom CMS solutions, allowing clients to easily manage their content.",
+      icon: <IconLayoutDashboard />,
     },
     {
-      title: "Money back guarantee",
+      title: "API Integration",
       description:
-        "If you donot like EveryAI, we will convince you to like us.",
-      icon: <IconAdjustmentsBolt />,
+        "Connecting the website with third-party services, such as social media, payment gateways, or analytics tools, to extend functionality.",
+      icon: <IconPlugConnected />,
     },
     {
-      title: "And everything else",
-      description: "I just ran out of copy ideas. Accept my sincere apologies",
-      icon: <IconHeart />,
+      title: "Performance Optimization",
+      description: "Improving website speed, ensuring quick load times, and optimizing code for performance",
+      icon: <IconGauge />,
+    },
+    {
+      title: "SEO",
+      description: "Implementing SEO best practices in design and development to help websites rank higher in search engine results",
+      icon: <IconChartLine />,
+    },
+    {
+      title: "Maintenance and Updates",
+      description: "Ongoing support to fix issues, update plugins, manage security, and keep the site running smoothly",
+      icon: <IconTools />,
     },
   ];
   return (
@@ -82,8 +100,8 @@ const Feature = ({
     <div
       className={cn(
         "flex flex-col lg:border-r  py-10 relative group/feature dark:border-neutral-800",
-        (index === 0 || index === 4) && "lg:border-l dark:border-neutral-800",
-        index < 4 && "lg:border-b dark:border-neutral-800"
+        (index === 0 || index === 4 || index === 8) && "lg:border-l dark:border-neutral-800",
+        index < 8 && "lg:border-b dark:border-neutral-800"
       )}
     >
       {index < 4 && (
@@ -96,7 +114,7 @@ const Feature = ({
         {icon}
       </div>
       <div className="text-lg font-bold mb-2 relative z-10 px-10">
-        <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-neutral-300 dark:bg-neutral-700 group-hover/feature:bg-blue-500 transition-all duration-200 origin-center" />
+        <div className="absolute left-0 inset-y-0 h-6 group-hover/feature:h-8 w-1 rounded-tr-full rounded-br-full bg-neutral-300 dark:bg-neutral-700 group-hover/feature:bg-purple transition-all duration-200 origin-center" />
         <span className="group-hover/feature:translate-x-2 transition duration-200 inline-block text-neutral-800 dark:text-neutral-100">
           {title}
         </span>

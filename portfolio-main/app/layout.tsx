@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ofa Patrick",
-  description: "Web design, web development and graphic design portfolio",
+  description: "Web designer and web developer portfolio",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* <link rel="icon" href="/jsm-logo.png" sizes="any" /> */}
+        <link rel="icon" href="/favicon.png" sizes="64x64" />
       </head>
       <body className={inter.className}>
         <ThemeProvider

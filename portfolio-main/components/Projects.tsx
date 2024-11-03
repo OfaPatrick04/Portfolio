@@ -1,30 +1,27 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaGithub, FaLocationArrow } from "react-icons/fa6";
 
-import { recentProjects } from "@/data";
+import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import MagicButton from "./MagicButton";
 
-const RecentProjects = () => {
+const Projects = () => {
   return (
-    <div className="py-20">
+    <div className="py-20 flex flex-col items-center">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        Some of <span className="text-purple">my Works</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {recentProjects.map((item) => (
+        {projects.map((item) => (
           <a
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
             href={item.link}
             target="blank"
           >
-            <PinContainer
-              title={item.linkName}
-              href={item.link}
-            >
+            <PinContainer title={item.linkName} href={item.link}>
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -32,11 +29,7 @@ const RecentProjects = () => {
                 >
                   <img src="/bg.png" alt="bgimg" />
                 </div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className="z-10 rounded-md"
-                />
+                <img src={item.img} alt="cover" className="z-10 rounded-md" />
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -44,7 +37,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-4"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
@@ -79,8 +72,11 @@ const RecentProjects = () => {
           </a>
         ))}
       </div>
+      <a href="https://github.com/OfaPatrick04">
+        <MagicButton title="View more on Github" icon={<FaGithub />} position="right"/>
+      </a>
     </div>
   );
 };
 
-export default RecentProjects;
+export default Projects;
