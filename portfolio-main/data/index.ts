@@ -171,7 +171,7 @@ export const projects = [
     id: 4,
     title: "Beastsandnumbers Production",
     des: "A portfolio for Beastsandnumbers Productions thats showcases all of their works ranging from photography to music videos to films and commercials",
-    img: "/taemart site.png",
+    img: "/beasts.png",
     iconLists: [
       "/mongodb.svg",
       "/express.svg",
