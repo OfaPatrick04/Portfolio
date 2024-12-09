@@ -73,6 +73,21 @@ export const gridItems = [
 export const recentProjects = [
   {
     id: 1,
+    title: "Beastsandnumbers Production",
+    des: "A portfolio for Beastsandnumbers Productions thats showcases all of their works ranging from photography to music videos to films and commercials",
+    img: "/beasts.png",
+    iconLists: [
+      "/mongodb.svg",
+      "/express.svg",
+      "/re.svg",
+      "/node.svg",
+      "/fm.svg",
+    ],
+    linkName: "beastsandnumbers.com",
+    link: "https://beastandnumbers.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Eneye Group International",
     des: "Eneye Group LTD is a multifaceted enterprise committed to driving innovation, sustainable growth, and social impact through a diverse range of services and products. Our operations span across various sectors, including business development, marketing, real estate, agriculture, and more, ensuring a holistic approach to empowering communities and fostering economic development.",
     img: "/eneyegroup.png",
@@ -87,7 +102,7 @@ export const recentProjects = [
     link: "https://www.eneyegroup.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Ghana Union of Professional Photographers",
     des: "The Ghana Union of Professional Photographers (GUPP) is a member union of the Public Service Workers Union (P.S.W.U.) of the Ghana Trade Union Congress (G-TUC). We are committed to uniting photographers across Ghana and beyond, advocating for their rights, and promoting the photographic industry.",
     img: "/guppgh.png",
@@ -96,7 +111,7 @@ export const recentProjects = [
     link: "https://guppgh.org/",
   },
   {
-    id: 3,
+    id: 4,
     title: "PAK Travels",
     des: "Welcome to PAK TRAVELS, a licensed and award-winning travel agency with years of credible service. Based in Sunyani, Bono Region, Ghana, we are dedicated to delivering exceptional travel experiences locally and internationally. Our passion for travel and commitment to client satisfaction make us your go-to partner for exploring new destinations and creating unforgettable memories.",
     img: "/pak travels.png",
@@ -109,15 +124,6 @@ export const recentProjects = [
     ],
     linkName: "paktravelssunayi.com",
     link: "https://paktravels.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "TaeMart",
-    des: "The African Entrepreneurship Market (TAEMart) is an innovative platform dedicated to elevating African brands on the global stage. We combine the power of digital platforms, physical retail spaces, and a network of skilled sales professionals to help African entrepreneurs achieve their sales and financial goals. TAEMart allows entrepreneurs to focus on production and product development, while we handle the complexities of marketing and sales.",
-    img: "/taemart site.png",
-    iconLists: ["/wordpress.svg", "/elementor.svg"],
-    linkName: "taemart.com",
-    link: "https://taemart.com/",
   },
 ];
 
@@ -163,12 +169,18 @@ export const projects = [
   },
   {
     id: 4,
-    title: "TaeMart",
-    des: "The African Entrepreneurship Market (TAEMart) is an innovative platform dedicated to elevating African brands on the global stage. We combine the power of digital platforms, physical retail spaces, and a network of skilled sales professionals to help African entrepreneurs achieve their sales and financial goals. TAEMart allows entrepreneurs to focus on production and product development, while we handle the complexities of marketing and sales.",
+    title: "Beastsandnumbers Production",
+    des: "A portfolio for Beastsandnumbers Productions thats showcases all of their works ranging from photography to music videos to films and commercials",
     img: "/taemart site.png",
-    iconLists: ["/wordpress.svg", "/elementor.svg"],
-    linkName: "taemart.com",
-    link: "https://taemart.com/",
+    iconLists: [
+      "/mongodb.svg",
+      "/express.svg",
+      "/re.svg",
+      "/node.svg",
+      "/fm.svg",
+    ],
+    linkName: "beastsandnumbers.com",
+    link: "https://beastandnumbers.vercel.app/",
   },
   {
     id: 5,
@@ -196,72 +208,6 @@ export const projects = [
     iconLists: ["/html.svg", "/css.svg"],
     linkName: "youtubereplica.com",
     link: "https://youtube-replica-two.vercel.app/",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "",
-    img: "",
-    nameImg: "/eneye.png",
-  },
-  {
-    id: 2,
-    name: "",
-    img: "",
-    nameImg: "/Taemart.png",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
   },
 ];
 
