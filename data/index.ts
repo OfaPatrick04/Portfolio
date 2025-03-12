@@ -74,7 +74,7 @@ export const recentProjects = [
   {
     id: 1,
     title: "Armadyo",
-    des: "An e-commerce website developed using Clerk for user authentication, Sentry as a Content Management System(CMS) and Stripe for secure payment options.",
+    des: "An e-commerce platform developed using Clerk for user authentication, Sentry as a Content Management System(CMS) and Stripe for secure payment options.",
     img: "/armadyo.png",
     iconLists: ["/next.svg", "/sanity.svg", "/clerk.png"],
     linkName: "armadyo.com",
