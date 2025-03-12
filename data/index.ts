@@ -73,6 +73,15 @@ export const gridItems = [
 export const recentProjects = [
   {
     id: 1,
+    title: "Armadyo",
+    des: "An e-commerce website developed using Clerk for user authentication, Sentry as a Content Management System(CMS) and Stripe for secure payment options.",
+    img: "/armadyo.png",
+    iconLists: ["/next.svg", "/sanity.svg", "/clerk.png"],
+    linkName: "armadyo.com",
+    link: "https://armadyo.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Beastsandnumbers Production",
     des: "A portfolio for Beastsandnumbers Productions thats showcases all of their works ranging from photography to music videos to films and commercials",
     img: "/beasts.png",
@@ -87,7 +96,7 @@ export const recentProjects = [
     link: "https://beastandnumbers.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Eneye Group International",
     des: "Eneye Group LTD is a multifaceted enterprise committed to driving innovation, sustainable growth, and social impact through a diverse range of services and products. Our operations span across various sectors, including business development, marketing, real estate, agriculture, and more, ensuring a holistic approach to empowering communities and fostering economic development.",
     img: "/eneyegroup.png",
@@ -102,28 +111,13 @@ export const recentProjects = [
     link: "https://www.eneyegroup.com/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Ghana Union of Professional Photographers",
     des: "The Ghana Union of Professional Photographers (GUPP) is a member union of the Public Service Workers Union (P.S.W.U.) of the Ghana Trade Union Congress (G-TUC). We are committed to uniting photographers across Ghana and beyond, advocating for their rights, and promoting the photographic industry.",
     img: "/guppgh.png",
     iconLists: ["/wordpress.svg", "/elementor.svg"],
     linkName: "guppgh.org",
     link: "https://guppgh.org/",
-  },
-  {
-    id: 4,
-    title: "PAK Travels",
-    des: "Welcome to PAK TRAVELS, a licensed and award-winning travel agency with years of credible service. Based in Sunyani, Bono Region, Ghana, we are dedicated to delivering exceptional travel experiences locally and internationally. Our passion for travel and commitment to client satisfaction make us your go-to partner for exploring new destinations and creating unforgettable memories.",
-    img: "/pak travels.png",
-    iconLists: [
-      "/mongodb.svg",
-      "/express.svg",
-      "/re.svg",
-      "/node.svg",
-      "/fm.svg",
-    ],
-    linkName: "paktravelssunayi.com",
-    link: "https://paktravels.vercel.app/",
   },
 ];
 
@@ -184,6 +178,15 @@ export const projects = [
   },
   {
     id: 5,
+    title: "Armadyo",
+    des: "An e-commerce website developed using Clerk for user authentication, Sentry as a Content Management System(CMS) and Stripe for secure payment options.",
+    img: "/armadyo.png",
+    iconLists: ["/next.svg", "/sanity.svg", "/clerk.png"],
+    linkName: "armadyo.com",
+    link: "https://armadyo.vercel.app/",
+  },
+  {
+    id: 6,
     title: "Quiz App",
     des: "A very Simple Quiz app which was designed using HTML, CSS and Vanilla Javascript. Easily scalable with a simple but well thought out interface.",
     img: "/quiz-app.png",
@@ -192,7 +195,7 @@ export const projects = [
     link: "https://quizapp-ofapatrick.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Sign Up/Login Form",
     des: "A simple Signup/Login form with fully functional client side verification and error messages",
     img: "/friendly-interface.png",
@@ -201,7 +204,7 @@ export const projects = [
     link: "https://signup-login-form-ofapatrick.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Youtube",
     des: "A simple replica of a youtube home page. It just has random videos and no real functionalities but it just looks cool. Its just HTML and CSS",
     img: "/youtube.png",
