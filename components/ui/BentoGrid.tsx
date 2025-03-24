@@ -1,12 +1,12 @@
-/* eslint-disable @next/next/no-img-element */
-
 "use client";
+/* eslint-disable @next/next/no-img-element */
 
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
-// Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
+// Dynamically import Lottie with SSR disabled
+import dynamic from "next/dynamic";
+const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
 import { cn } from "@/lib/utils";
 
@@ -14,6 +14,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import Link from "next/link";
 
 export const BentoGrid = ({
   className,
@@ -67,12 +68,6 @@ export const BentoGridItem = ({
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
-  };
-
-  const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
-    navigator.clipboard.writeText(text);
-    setCopied(true);
   };
 
   return (
@@ -172,7 +167,7 @@ export const BentoGridItem = ({
               {/* button border magic from tailwind css buttons  */}
               {/* add rounded-md h-8 md:h-8, remove rounded-full */}
               {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
-              {/* add handleCopy() for the copy the text */}
+              {/* link to the contact page */}
               <div
                 className={`absolute -bottom-5 right-0 ${
                   copied ? "block" : "block"
@@ -182,13 +177,15 @@ export const BentoGridItem = ({
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
-              <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
-                icon={<IoCopyOutline />}
-                position="left"
-                handleClick={handleCopy}
-                otherClasses="!bg-[#161A31]"
-              />
+              <Link href="/contact">
+                <MagicButton
+                  title="Let's Do It!!!"
+                  icon={<IoCopyOutline />}
+                  position="left"
+                  // handleClick={() => (window.location.href = "/contact")}
+                  otherClasses="!bg-[#161A31]"
+                />
+              </Link>
             </div>
           )}
         </div>
