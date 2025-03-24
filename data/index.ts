@@ -187,30 +187,12 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Quiz App",
-    des: "A very Simple Quiz app which was designed using HTML, CSS and Vanilla Javascript. Easily scalable with a simple but well thought out interface.",
-    img: "/quiz-app.png",
-    iconLists: ["/html.svg", "/css.svg", "/javascript.svg"],
-    linkName: "quizapp.com",
-    link: "https://quizapp-ofapatrick.vercel.app/",
-  },
-  {
-    id: 7,
     title: "Sign Up/Login Form",
     des: "A simple Signup/Login form with fully functional client side verification and error messages",
     img: "/friendly-interface.png",
     iconLists: ["/html.svg", "/css.svg", "/javascript.svg"],
     linkName: "signuploginform.com",
     link: "https://signup-login-form-ofapatrick.vercel.app/",
-  },
-  {
-    id: 8,
-    title: "Youtube",
-    des: "A simple replica of a youtube home page. It just has random videos and no real functionalities but it just looks cool. Its just HTML and CSS",
-    img: "/youtube.png",
-    iconLists: ["/html.svg", "/css.svg"],
-    linkName: "youtubereplica.com",
-    link: "https://youtube-replica-two.vercel.app/",
   },
 ];
 
@@ -254,7 +236,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/ofa-patrick-27a6b12b9",
+    link: "https://www.linkedin.com/in/ofa-patrick",
   },
   // {
   //   id: 3,
