@@ -139,6 +139,15 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Mountville International University - Mountville University",
+    des: "MIUC Goal The overarching goal of MIUC is to develop students’ intelligence and skills and broaden their outlook to make them useful to Ghana and the world. Learn More Mode of Training To educate 21st Century thinkers, leaders, researchers, and to produce quality graduates through technology-based teaching and learning, Learn More Student Engagement We help",
+    img: "/miuc.png",
+    iconLists: ["/wordpress.svg", "/elementor.svg"],
+    linkName: "miuc.edu.gh",
+    link: "https://miuc.edu.gh/",
+  },
+  {
+    id: 3,
     title: "Ghana Union of Professional Photographers",
     des: "The Ghana Union of Professional Photographers (GUPP) is a member union of the Public Service Workers Union (P.S.W.U.) of the Ghana Trade Union Congress (G-TUC). We are committed to uniting photographers across Ghana and beyond, advocating for their rights, and promoting the photographic industry.",
     img: "/guppgh.png",
@@ -147,7 +156,7 @@ export const projects = [
     link: "https://guppgh.org/",
   },
   {
-    id: 3,
+    id: 4,
     title: "PAK Travels",
     des: "Welcome to PAK TRAVELS, a licensed and award-winning travel agency with years of credible service. Based in Sunyani, Bono Region, Ghana, we are dedicated to delivering exceptional travel experiences locally and internationally. Our passion for travel and commitment to client satisfaction make us your go-to partner for exploring new destinations and creating unforgettable memories.",
     img: "/pak travels.png",
@@ -159,10 +168,10 @@ export const projects = [
       "/fm.svg",
     ],
     linkName: "paktravelssunayi.com",
-    link: "https://paktravels.vercel.app/",
+    link: "https://www.paktravelssunyani.com/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Beastsandnumbers Production",
     des: "A portfolio for Beastsandnumbers Productions thats showcases all of their works ranging from photography to music videos to films and commercials",
     img: "/beasts.png",
@@ -177,7 +186,7 @@ export const projects = [
     link: "https://beastandnumbers.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Armadyo",
     des: "An e-commerce website developed using Clerk for user authentication, Sentry as a Content Management System(CMS) and Stripe for secure payment options.",
     img: "/armadyo.png",
@@ -186,7 +195,7 @@ export const projects = [
     link: "https://armadyo.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Sign Up/Login Form",
     des: "A simple Signup/Login form with fully functional client side verification and error messages",
     img: "/friendly-interface.png",
@@ -199,31 +208,31 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend Engineer - Alpharithm Investments",
+    desc: "Building and Maintaining web based applications using NextJs.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Senior Web Developer - Eneye Group",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Designed and developed official website using React and NodeJs.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "WordPress Developer - AEA Ghana",
+    desc: "Developed and maintained WordPress websites.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 4,
-    title: "Frontend Developer - AEA Ghana",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    title: "Freelance Web developer",
+    desc: "Completed various Websites and web apps for various clients using mordern softwares and technologies.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
   },
 ];
 
