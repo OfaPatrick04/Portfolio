@@ -157,6 +157,15 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Taemart – The African Entrepreneurs Market",
+    des: "An e-commerce platform built for the African Enterpreneurs Market (TAEMart)",
+    img: "/taemart.png",
+    iconLists: ["/wordpress.svg", "/elementor.svg", "/wooo.png"],
+    linkName: "taemart.com",
+    link: "https://taemart.com/",
+  },
+  {
+    id: 5,
     title: "PAK Travels",
     des: "Welcome to PAK TRAVELS, a licensed and award-winning travel agency with years of credible service. Based in Sunyani, Bono Region, Ghana, we are dedicated to delivering exceptional travel experiences locally and internationally. Our passion for travel and commitment to client satisfaction make us your go-to partner for exploring new destinations and creating unforgettable memories.",
     img: "/pak travels.png",
@@ -171,7 +180,7 @@ export const projects = [
     link: "https://www.paktravelssunyani.com/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Beastsandnumbers Production",
     des: "A portfolio for Beastsandnumbers Productions thats showcases all of their works ranging from photography to music videos to films and commercials",
     img: "/beasts.png",
@@ -186,7 +195,7 @@ export const projects = [
     link: "https://beastandnumbers.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Armadyo",
     des: "An e-commerce website developed using Clerk for user authentication, Sentry as a Content Management System(CMS) and Stripe for secure payment options.",
     img: "/armadyo.png",
@@ -195,7 +204,7 @@ export const projects = [
     link: "https://armadyo.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Sign Up/Login Form",
     des: "A simple Signup/Login form with fully functional client side verification and error messages",
     img: "/friendly-interface.png",
