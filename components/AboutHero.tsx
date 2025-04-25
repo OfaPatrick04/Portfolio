@@ -38,7 +38,7 @@ const AboutHero = () => {
               </svg>
             </span>
           </a> */}
-          <a href="https://www.linkedin.com/in/ofa-patrick-27a6b12b9" target="blank" className="text-sm relative">
+          <a href="https://linkedin.com/in/ofa-patrick" target="blank" className="text-sm relative">
             <span className="relative z-10 px-2 py-2 inline-block hover:text-purple">
               <svg
                 stroke="currentColor"
