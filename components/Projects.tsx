@@ -72,9 +72,6 @@ const Projects = () => {
           </a>
         ))}
       </div>
-      <a href="https://github.com/OfaPatrick04">
-        <MagicButton title="View more on Github" icon={<FaGithub />} position="right"/>
-      </a>
     </div>
   );
 };
